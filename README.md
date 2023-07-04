@@ -3,21 +3,29 @@ Export user records from cognito to CSV
 
 ## Installation
 
-Run:
-
+Create VENV
 ```
-source venv/bin/activate
+# Windows
+  python -m virtualenv env
+  .\env\Scripts\activate
+```
+```
+# Mac
+  virtualenv venv
+  source venv/bin/activate
 ```
 
+Install required libraries
 ```
 pip3 install -r requirements.txt
 ```
 
+Run script
 ```
 python3 get-cognito-users.py -f exported_users.csv --user-pool-id <PoolIdExample> -attr <name email, etc...>
 ```
 
-You can use any attribute that exists in your cognito user pool (custom or predefined)
+**You can use any attribute that exists in your cognito user pool (custom or predefined)** 
 
 
 ### Script Arguments
