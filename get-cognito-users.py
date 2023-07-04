@@ -21,7 +21,6 @@ if args.file_name:
 
 try:
     client = boto3.client('cognito-idp')
-    # CSV_FILE_NAME = 'cognito_users.csv'
     CSV_NEW_LINE = {REQUIRED_ATTRIBUTES[i]: '' for i, v in enumerate(REQUIRED_ATTRIBUTES)}
 
     paginator = client.get_paginator('list_users')
