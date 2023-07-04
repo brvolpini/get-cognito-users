@@ -17,7 +17,7 @@ pip3 install -r requirements.txt
 python3 get-cognito-users.py -f exported_users.csv --user-pool-id <PoolIdExample> -attr <name email, etc...>
 ```
 
-You can use any attribute that exists in your cognito user pool (custom or prefefined)
+You can use any attribute that exists in your cognito user pool (custom or predefined)
 
 
 ### Script Arguments
