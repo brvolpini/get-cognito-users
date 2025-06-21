@@ -39,4 +39,6 @@ python3 get-cognito-users.py -f exported_users.csv --user-pool-id <PoolIdExample
 - `-pool` or `--user-pool-id` [__Required__]
 - `-attr` or `--export-attributes` [__Required__]
 - `-f` or `--file-name` [__Optional__]
+- `--is-admin` [__Optional__]
+
 
