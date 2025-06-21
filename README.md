@@ -25,6 +25,12 @@ Run script
 python3 get-cognito-users.py -f exported_users.csv --user-pool-id <PoolIdExample> -attr <name email, etc...>
 ```
 
+Filter only admin users
+```
+pass to the script the argument --is-admin:
+python3 get-cognito-users.py -f exported_users.csv --user-pool-id <PoolIdExample> -attr <name email, etc...> --is-admin
+```
+
 **You can use any attribute that exists in your cognito user pool (custom or predefined)** 
 
 
