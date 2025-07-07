@@ -1,4 +1,4 @@
-# get-cognito-users
+# Get Cognito users
 Export user records from cognito to CSV
 
 ## Installation
